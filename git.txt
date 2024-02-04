@@ -1,0 +1,23 @@
+The steps for installing git depends on the type of your device.  
+
+For Windows, the steps are as follows:
+1.  Go to the official website: https://git-scm.com/ and download the latest version for.
+2. Run the installer after it has finished downloading and follow the installation wizard and its prompts.
+3. Accept the default settings unless you have other preferences.
+And with that, you're good to go.   
+
+For macOS:
+1. Ensure Homebrew is installed
+2. Open terminal and run 'brew install git' or download the macOS installer from the official git website: https://git-scm.com/ 
+3. Double clivk the download.dmg file and follow the instatllation prompts.
+
+For Linux:
+For an Ubuntu/Debian based systems, in the terminal, run the following code
+sudo apt update
+sudo apt install git
+For under distributions, use the apprpopriate package manager to install Git. 
+
+To confirm installation; Open your command prompt or terminal and type
+git --version
+
+The above should show you the version of Git installed. If you get an error or no output then Git isn't installed yet.

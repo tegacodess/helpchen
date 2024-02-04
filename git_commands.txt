@@ -1,0 +1,21 @@
+20 git commands and their functions
+1. git init: Initializes a new repo 
+2. git clone [repository_url]: Clones a repository from a remote url to the local machine
+3. git add [file(s)]: Adds a file to the staging area, preparing to be committed
+4. git commit -m "commit message": Commits staged changes with a commit message
+5. git status:Displays the current status of the repository
+6. git push [remote] [branch]: Pushes local commits to a remote repository on the specified branch.
+7. git pull [remote] [branch]: Fetches changes from a remote repository and merges them into the current local branch.
+8. git branch [branch_name]: Creates a new branch with the specified name.
+9. git checkout [branch_name]: Switches to the specified branch, updating the working directory with the branch's contents.
+10. git merge [branch_name]: Merges the specified branch into the current branch.
+11. git log: Displays a chronological list of commits in the repository, showing commit messages, authors, and timestamps.
+12. git diff: Shows the difference between the working directory and the staging area.
+13. git diff --staged: Shows the difference between the staged changes and the last commit.
+14. git reset [file]: Unstages the specified file(s), removing them from the staging area.
+15. git reset --hard [commit_hash]: Resets the repository to a specific commit, discarding all changes after that commit.
+16. git remote add [remote_name] [remote_url]: Adds a new remote repository with the specified name and URL.
+17. git remote -v: Lists all remote repositories associated with the current repository along with their URLs.
+18. git fetch [remote]: Fetches changes from the specified remote repository without merging them into the local branch.
+19. git tag [tag_name]: Creates a lightweight tag at the current commit.
+20. git rm [file(s)]: Removes file(s) from both the working directory and the Git index (staging area).

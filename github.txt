@@ -1,0 +1,15 @@
+To create a GitHub account and lone repo to your local machine, take the following steps.
+1. Sign up on GitHub at https://github.com/
+2. Enter details and follow prompts
+3.Complete setup and confirm account creation
+
+To clone repos to your local machine, you do ths:
+1. Install git
+2. Open Terminal or Command prompt
+3. Use the cd command to navigate to the directory or folder where you want to clone the repository 
+   cd path/to/directory
+4. Clone repository with the git clone command followed by the url of the repository you want to clone
+   git clone https://github.com/example/repository.git
+5. Wait for cloning to complete
+6. Access repo with the cd command
+   cd repository_name
